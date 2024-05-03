@@ -23,7 +23,7 @@ const ContactPage = () => {
   return (
     <>
       <Navbar />
-      <div className="coverImg flex flex-col justify-center items-center h-[300px] w-full bg-cover">
+      <div className="coverImg flex flex-col justify-center items-center h-[500px] w-full bg-cover">
         <h1 className="text-6xl m-2 uppercase font-semibold text-white">Connect <span className="text-gray-700">With Us</span></h1>
         <h1 className="text-3xl uppercase font-light text-gray-700">Just few inputs away</h1>
       </div>
