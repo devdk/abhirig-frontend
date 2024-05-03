@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Typed from 'typed.js';
 import gsap from "gsap";
-
+import logo form '..assets/logo.png'
 export default function Abouthero() {
   const typedRef = useRef(null);
   const logoRef = useRef(null);
@@ -44,7 +44,7 @@ export default function Abouthero() {
             ref={logoRef}
             className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" 
             alt="hero" 
-            src="../assets/logo.png"
+            src={logo}
           />
           <div className="text-center lg:w-2/3 w-full">
             <h1 className="text-transparent font-semibold mb-8 bg-clip-text bg-gradient-to-r lg:text-4xl  to-gold-100 from-yellow-400 via-lightGreen">
