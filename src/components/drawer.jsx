@@ -53,17 +53,19 @@ const Drawer = ({ shops }) => {
       <div className="text-center">
         <button onClick={toggleDrawer} className="focus:outline-none">
           <RiShoppingCartLine
-            size={34}
-            color="gray"
-            className="my-icon hover:cursor-pointer hover:scale-90 transition duration-300 ease-in-out"
+            className="my-icon w-8 h-8 md:w-10 md:h-10 text-gray-500 hover:cursor-pointer hover:scale-90 transition duration-300 ease-in-out"
+            alt="account"
           />
         </button>
-        <span className="w-5 h-5 rounded-[50%] bg-darkGreen flex absolute text-white items-center justify-center top-6 right-[15%]">2</span>
+        {/* <span className="w-5 h-5 rounded-[50%] bg-darkGreen flex absolute text-white items-center justify-center top-6 right-[15%]">
+          2
+        </span> */}
       </div>
-
       <div
         className={`fixed top-0 right-0 z-40 h-screen p-6 overflow-y-auto bg-gray-100 w-96 transform transition-transform duration-300 ${
-          isDrawerOpen ? "translate-x-0" : "translate-x-full scale-80 opacity-80"
+          isDrawerOpen
+            ? "translate-x-0"
+            : "translate-x-full scale-80 opacity-80"
         }`}
       >
         <div className="drawer-content">

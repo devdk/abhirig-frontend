@@ -113,7 +113,7 @@ const HomePage = () => {
   return (
     <>
       <Navbar />
-      <div className="relative flex flex-col justify-center items-center h-screen md:mt-4 md:p-6 ">
+      <div className="relative flex flex-col justify-center items-center md:h-screen md:mt-4 md:p-6 mt-10">
         <div className="text-center mb-4 md:mb-12">
           <img
             ref={sideImgRefs[0]}
@@ -139,11 +139,11 @@ const HomePage = () => {
             alt=""
             className="w-44 hidden md:block absolute h-44 -rotate-12 right-14 top-40"
           />
-          <p className="text-lg font-bold uppercase text-gold-100 md:text-lg">
+          <p className="text-sm font-bold lowercase text-gold-100 md:text-xl">
             ..Harmonize Your Being
           </p>
-          <h1 className="mb-4 mt-4 text-2xl font-semibold text-slate-500 md:text-2xl lg:text-3xl uppercase">
-            <span className="text-transparent  bg-clip-text bg-gradient-to-r lg:text-5xl to-green-400 from-gold-100 via-indigo-600">
+          <h1 className="mb-4 mt-4 text-lg font-semibold text-slate-500 md:text-2xl lg:text-3xl uppercase">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r lg:text-5xl to-green-400 from-gold-100 via-indigo-600">
               Ayurvedic Wellness Essentials..
             </span>
             <br />
@@ -172,7 +172,7 @@ const HomePage = () => {
           title="SKU1"
           id="sku1"
           alt="P1"
-          className="absolute transform -translate-x-1/2 top-1/2 left-1/2 md:h-3/6 h-52 -mt-1 md:-mt-24 cursor-pointer"
+          className="md:absolute transform -translate-x-1/2 top-1/2 left-1/2 md:h-3/6 h-32 -mt-40 md:-mt-24 cursor-pointer"
         />
         <img
           ref={itemRef2}
@@ -191,7 +191,6 @@ const HomePage = () => {
           className="absolute transform -translate-x-1/2 top-1/2 left-1/2 md:h-3/6 hidden md:block md:-mt-24 cursor-pointer"
         />
       </div>
-
       <Section />
       <Pricing />
       <Feature />

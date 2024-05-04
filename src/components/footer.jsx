@@ -11,9 +11,9 @@ const Footer = () => {
       <footer class="footCover text-slate-100 mt-10 bg-cover">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div class="md:flex md:justify-between mt-4">
-            <div class="mb-6 md:mb-0">
-              <img src={logo} class="h-14 w-24" alt="Logo" />
-              <p className="w-2/3 mt-4 text-justify">
+            <div class="mb-6">
+              <img src={logo} class="h-14 w-24 md:mt-0 mt-8" alt="Logo" />
+              <p className="md:w-2/3 mt-4 text-justify">
               Elevate your well-being with our premium Ayurvedic supplements. Crafted from natural ingredients, our supplements are designed to promote balance and vitality.
               </p>
             </div>
