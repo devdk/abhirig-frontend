@@ -23,12 +23,12 @@ const ContactPage = () => {
   return (
     <>
       <Navbar />
-      <div className="coverImg flex flex-col justify-center items-center h-[500px] w-full bg-cover">
-        <h1 className="text-6xl m-2 uppercase font-semibold text-white">Connect <span className="text-gray-700">With Us</span></h1>
-        <h1 className="text-3xl uppercase font-light text-gray-700">Just few inputs away</h1>
+      <div className="coverImg flex flex-col justify-center items-center h-40 md:h-[600px] w-full bg-cover">
+        <h1 className="md:text-6xl text-2xl m-4 uppercase font-semibold text-white">Connect <span className="text-gray-700">With Us</span></h1>
+        <h1 className="md:text-3xl  text-xl uppercase font-light text-gray-700">Just few inputs away</h1>
       </div>
-      <section className="flex flex-col md:flex-row justify-center items-center p-4 md:p-8 h-auto md:h-screen">
-        <div className="leftBar md:w-1/3 border-t-4 md:border-l-4 border-b-4 p-6 bg-gray-100 h-full shadow-lg">
+      <section className="flex flex-col-reverse md:flex-row justify-center items-center gap-4 md:gap-0 p-4 md:p-8 h-auto md:h-screen">
+        <div className="leftBar md:w-1/3 p-6 bg-gray-100 md:h-full h-auto shadow-lg">
           <h1 className="text-xl md:text-3xl p-2 md:p-4 font-bold text-black">
             Reach us <span className="text-darkGreen">through</span>
           </h1>
@@ -56,7 +56,7 @@ const ContactPage = () => {
             className="mt-4"
           ></iframe>
         </div>
-        <div className="rightBar md:w-1/3 md:border-t-4 md:border-r-4 md:border-b-4 h-full p-6 shadow-lg">
+        <div className="rightBar md:w-1/3 md:h-full p-6 shadow-lg">
           <h1 className="text-xl md:text-4xl p-2 md:p-4 font-bold text-darkGreen">
             Get In Touch
           </h1>
@@ -134,7 +134,7 @@ const ContactPage = () => {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                rows="4"
+                rows="10"
                 className="mt-1 p-2 w-full border rounded-md focus:outline-none border-gray-400"
               ></textarea>
             </div>
