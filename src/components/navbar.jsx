@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import Drawer from './drawer';
-import logo from '../assets/logo.png';
-import { RiAccountCircleLine, RiMenu2Line } from '@remixicon/react';
+import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import Drawer from "./drawer";
+import logo from "../assets/logo.png";
+import { RiAccountCircleLine, RiMenu2Line } from "@remixicon/react";
 
 const Navbar = () => {
   const location = useLocation();
@@ -17,31 +17,27 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="mt-6 sticky top-0 z-50 bg-white">
+    <nav className="md:mt-6 sticky top-0 z-50 bg-white">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center rtl:space-x-reverse">
-          <img src={logo} className="h-18 w-32" alt="Logo" />
+          <img src={logo} className="h-18 w-24 md:w-32" alt="Logo" />
         </Link>
-
-        <div className="flex md:order-2 space-x-10 rtl:space-x-reverse">
+        <div className="flex md:order-2 md:space-x-10 space-x-5 rtl:space-x-reverse">
           <Drawer />
           <RiAccountCircleLine
-            size={34}
-            color="gray"
-            className="my-icon hover:cursor-pointer hover:scale-90 transition duration-300 ease-in-out"
-            alt="cart"
+            className="my-icon w-8 h-8 md:w-10 md:h-10 text-gray-500 hover:cursor-pointer hover:scale-90 transition duration-300 ease-in-out"
+            alt="account"
           />
-            <RiMenu2Line
-            size={34}
-            color="gray"
-            className="my-icon hover:cursor-pointer hover:scale-90 transition duration-300 ease-in-out md:hidden"
+          <RiMenu2Line
+            className="my-icon w-8 h-8 md:w-10 md:h-10 text-gray-500 hover:cursor-pointer hover:scale-90 transition duration-300 ease-in-out md:hidden"
             onClick={toggleMenu}
+            alt="menu"
           />
         </div>
 
         <div
           className={`items-center justify-between w-full md:flex md:w-auto md:mt-0 mt-4 md:order-1 ${
-            menuOpen ? 'block bg-gray-100 ' : 'hidden'
+            menuOpen ? "block bg-gray-100 " : "hidden"
           }`}
           id="navbar-cta"
         >
@@ -64,9 +60,9 @@ const NavItem = ({ to, text, isActive }) => {
       <Link
         to={to}
         className={`block py-2 px-3 md:p-0 hover:text-gold-100 rounded transition duration-300 ease-in-out ${
-          isActive(to) ? 'text-gold-100' : 'text-gray-500'
+          isActive(to) ? "text-gold-100" : "text-gray-500"
         }`}
-        aria-current={isActive(to) ? 'page' : undefined}
+        aria-current={isActive(to) ? "page" : undefined}
       >
         {text}
       </Link>
