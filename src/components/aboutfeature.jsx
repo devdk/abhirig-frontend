@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Abtftr() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
+    <section className="w-full py-12 md:py-20 lg:py-32 xl:py-48">
       <div className="container px-4 md:px-6">
         <div className="grid gap-6 items-center">
           <div className="flex flex-col justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl mb-4 xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-darkGreen to-lightGreen">
+              <h1 className="md:text-3xl font-bold tracking-tighter text-2xl mb-4 xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-darkGreen to-lightGreen">
                 Discover Our Unique Features
               </h1>
               <p className="max-w-[600px] text-gray-900 md:text-xl mx-auto">
@@ -16,9 +16,9 @@ export default function Abtftr() {
               </p>
             </div>
             <div className="w-full max-w-full space-y-4 mx-auto">
-              <div className="grid grid-cols-3 gap-8">
+              <div className="grid md:grid-cols-3 grid-rows-3 gap-8">
                 <div className="flex flex-col space-y-2 border-2 border-gray-400 p-4 rounded-lg">
-                  <h2 className="text-xl font-bold text-black">
+                  <h2 className=" text-lg md:text-xl font-bold text-black">
                     Smart Inbox
                   </h2>
                   <p className="text-gray-900">
@@ -27,7 +27,7 @@ export default function Abtftr() {
                   </p>
                 </div>
                 <div className="flex flex-col space-y-2 border-2 border-gray-400 p-4 rounded-lg">
-                  <h2 className="text-xl font-bold text-black">
+                  <h2 className=" text-lg md:text-xl font-bold text-black">
                     Seamless Integration
                   </h2>
                   <p className="text-gray-900">
@@ -36,7 +36,7 @@ export default function Abtftr() {
                   </p>
                 </div>
                 <div className="flex flex-col space-y-2 border-2 border-gray-400 p-4 rounded-lg">
-                  <h2 className="text-xl font-bold text-black">
+                  <h2 className=" text-lg md:text-xl font-bold text-black">
                     Advanced Customization
                   </h2>
                   <p className="text-gray-900">
@@ -45,7 +45,7 @@ export default function Abtftr() {
                   </p>
                 </div>
                 <div className="flex flex-col space-y-2 border-2 border-gray-400 p-4 rounded-lg">
-                  <h2 className="text-xl font-bold text-black">
+                  <h2 className=" text-lg md:text-xl font-bold text-black">
                     Powerful Search
                   </h2>
                   <p className="text-gray-900">
@@ -54,7 +54,7 @@ export default function Abtftr() {
                   </p>
                 </div>
                 <div className="flex flex-col space-y-2 border-2 border-gray-400 p-4 rounded-lg">
-                  <h2 className="text-xl font-bold text-black">
+                  <h2 className=" text-lg md:text-xl font-bold text-black">
                     Reliable Security
                   </h2>
                   <p className="text-gray-900">
@@ -63,7 +63,7 @@ export default function Abtftr() {
                   </p>
                 </div>
                 <div className="flex flex-col space-y-2 border-2 border-gray-400 p-4 rounded-lg">
-                  <h2 className="text-xl font-bold text-black">
+                  <h2 className=" text-lg md:text-xl font-bold text-black">
                     Easy Collaboration
                   </h2>
                   <p className="text-gray-900">
@@ -80,4 +80,4 @@ export default function Abtftr() {
   );
 }
 
-// export default Abtftr;
+
