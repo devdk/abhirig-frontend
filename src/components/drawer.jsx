@@ -62,7 +62,7 @@ const Drawer = ({ shops }) => {
         </span> */}
       </div>
       <div
-        className={`fixed top-0 right-0 z-40 h-screen p-6 overflow-y-auto bg-gray-100 w-96 transform transition-transform duration-300 ${
+        className={`fixed top-0 right-0 z-40 h-screen p-6 overflow-y-auto bg-gray-100 md:w-1/4 w-2/3 transform transition-transform duration-300 ${
           isDrawerOpen
             ? "translate-x-0"
             : "translate-x-full scale-80 opacity-80"
