@@ -40,12 +40,13 @@ const Feature = () => {
         <div className="flex flex-wrap w-full mb-20">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
             <h1 className="sm:text-3xl text-xl font-medium  title-font mb-2 text-white">
-              Ayurvedic Supplements? Why Not..
+              Are you still struggling to find your hair-fit product?
             </h1>
             <div className="h-1 w-20 bg-white rounded"></div>
           </div>
           <p className="lg:w-1/2 w-full leading-relaxed text-justify text-white">
-            Enhance your health and wellness journey with our high-quality Ayurvedic supplements. Carefully formulated from natural ingredients and time-honored recipes, our supplements provide a variety of benefits to nurture your holistic well-being.
+            Enhance your hair health and wellness journey with our high-quality Ayurvedic supplements. 
+            Carefully formulated from natural ingredients and time-honored recipes, our supplements provide a variety of benefits to nurture your holistic well-being.
           </p>
         </div>
 
