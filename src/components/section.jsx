@@ -36,21 +36,21 @@ const Section = () => {
   return (
     <>
       <div className="flex flex-col items-center py-12 text-xl line md:text-4xl text-gray-500 mt-6 mb-6 uppercase">
-        Our Product Is Trusted By
+        PERFECT BRAND IS FEATURED ON
         <span className="bg-gradient-to-r from-purple-500 to-red-500 text-transparent font-semibold bg-clip-text">
-          50+ Institutions
+          20+ Platforms
         </span>
       </div>
       <section className="text-white body-font relative" style={sectionStyle}>
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-justify">
             <h1 className="title-font mt-6 text-xl md:text-4xl mb-4 font-semibold ">
-              Discover the Power of Ayurveda
+              Discover the Power of Abhirig
             </h1>
             <p className="mb-8 leading-relaxed">
-              Elevate your well-being with our premium Ayurvedic supplements.
+              Elevate your well-being with our premium haircare products.
               Crafted from natural ingredients, our supplements are designed to
-              promote balance and vitality in your life.
+              promote balance and strength to your hair.
             </p>
             <div className="md:flex justify-around mt-4 gap-10 w-full md:text-3xl text-xl">
               <div className="text m-2">
