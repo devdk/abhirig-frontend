@@ -28,11 +28,11 @@ const Pricing = () => {
 <h1 className="text-center mt-12 mb-6 text-2xl font-extrabold leading-none tracking-tight text-gray-500 md:text-5xl lg:text-6xl">
   Enhance your wellness journey with{" "}
   <span className="text-green-500 dark:text-gold-100">Nature's remedies</span>{" "}
-  for a healthier life.
+  for a healthier hair.
 </h1>
 <p className="md:text-lg text-center text-sm font-normal text-gray-500 lg:text-xl dark:text-gray-500">
-  Welcome to our Ayurvedic supplement store, where we harness the power of
-  traditional herbs and natural ingredients to support your well-being.
+  Welcome to our Abhirig Haircare Store, where we harness the power of
+  traditional herbs and natural ingredients to support your hair well-being.
   <br />Explore our range of products crafted with care to promote holistic health
   and vitality.
 </p>
