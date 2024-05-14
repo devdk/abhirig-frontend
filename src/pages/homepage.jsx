@@ -5,13 +5,14 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/navbar";
 import Section from "../components/section";
 import Feature from "../components/feature";
+import Formula from "../components/productformula";
 import Product from "../components/product";
 import Pricing from "../components/pricing";
 import Footer from "../components/footer";
 import banner from "../assets/banner_round_bg.png";
 import product from "../assets/p1.png";
 import leaf from "../assets/leaf.png";
-import Formula from "../components/productformula";
+
 
 import "../../src/index.css";
 
