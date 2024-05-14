@@ -193,6 +193,7 @@ const HomePage = () => {
       </div>
       <Section />
       <Product />
+      <productFormula/>
       <Feature />
       <Pricing />
       <Footer />
