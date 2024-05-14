@@ -11,7 +11,7 @@ import Footer from "../components/footer";
 import banner from "../assets/banner_round_bg.png";
 import product from "../assets/p1.png";
 import leaf from "../assets/leaf.png";
-// import Formula from "../components/productformula"
+import Formula from "../components/productformula";
 
 import "../../src/index.css";
 
@@ -194,7 +194,7 @@ const HomePage = () => {
       </div>
       <Section />
       <Product />
-{/*       <Formula/> */}
+      <Formula/>
       <Feature />
       <Pricing />
       <Footer />
