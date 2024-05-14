@@ -102,4 +102,4 @@ const productFormula = () => {
   );
 };
 
-export default Section;
+export default productFormula;
