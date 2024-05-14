@@ -5,7 +5,7 @@ import backImg1 from "../assets/bg2.png";
 import { RiMentalHealthLine, RiLeafLine, RiHeart2Line } from "@remixicon/react";
 
 const productformula = () => {
-  const sectionStyle = {
+  const formulaStyle = {
     backgroundImage: `url(${backImg1})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
@@ -41,7 +41,7 @@ const productformula = () => {
           20+ Platforms
         </span>
       </div>
-      <section className="text-white body-font relative" style={sectionStyle}>
+      <section className="text-white body-font relative" style={formulaStyle}>
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-justify">
             <h1 className="title-font mt-6 text-xl md:text-4xl mb-4 font-semibold ">
