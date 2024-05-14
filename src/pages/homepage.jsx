@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/navbar";
 import Section from "../components/section";
 import Feature from "../components/feature";
-import Formula from "../components/productformula";
 import Product from "../components/product";
 import Pricing from "../components/pricing";
 import Footer from "../components/footer";
@@ -195,7 +194,6 @@ const HomePage = () => {
       </div>
       <Section />
       <Product />
-      <Formula/>
       <Feature />
       <Pricing />
       <Footer />
