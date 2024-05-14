@@ -4,7 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import backImg1 from "../assets/bg2.png";
 import { RiMentalHealthLine, RiLeafLine, RiHeart2Line } from "@remixicon/react";
 
-const Section = () => {
+const productFormula = () => {
   const sectionStyle = {
     backgroundImage: `url(${backImg1})`,
     backgroundSize: "cover",
