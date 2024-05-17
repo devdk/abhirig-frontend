@@ -7,11 +7,13 @@ import Section from "../components/section";
 import Feature from "../components/feature";
 import Product from "../components/product";
 import Pricing from "../components/pricing";
+import ProductSlider from "../components/slider";
+import Video from "../components/video";
+import Element from "../components/element";
 import Footer from "../components/footer";
 import banner from "../assets/banner_round_bg.png";
 import product from "../assets/p1.png";
 import leaf from "../assets/leaf.png";
-
 
 import "../../src/index.css";
 
@@ -141,14 +143,14 @@ const HomePage = () => {
             className="w-44 hidden md:block absolute h-44 -rotate-12 right-14 top-40"
           />
           <p className="text-sm font-bold lowercase text-gold-100 md:text-xl">
-            Care your Hair with...
+            ..Harmonize Your Being
           </p>
           <h1 className="mb-4 mt-4 text-lg font-semibold text-slate-500 md:text-2xl lg:text-3xl uppercase">
             <span className="text-transparent bg-clip-text bg-gradient-to-r lg:text-5xl to-green-400 from-gold-100 via-indigo-600">
-              Abhirig Wellness Essentials
+              Ayurvedic Wellness Essentials..
             </span>
             <br />
-            your new hair-health companion
+            the complete health companion
           </h1>
         </div>
         <Link to="/shop" className=" md:-m-6 z-10 mb-3 px-5 py-2.5">
@@ -193,9 +195,12 @@ const HomePage = () => {
         />
       </div>
       <Section />
-      <Product />
+      <ProductSlider/>
       <Feature />
       <Pricing />
+      <Video/>
+      <Product />
+      <Element/>
       <Footer />
     </>
   );
